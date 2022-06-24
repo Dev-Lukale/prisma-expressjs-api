@@ -50,6 +50,7 @@ router.post('/products', async (req, res, next) => {
   }
 });
 
+
 router.delete('/product/:id', async (req, res, next) => {
   try {
     const { id } = req.params
